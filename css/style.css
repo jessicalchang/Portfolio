@@ -172,6 +172,32 @@ body, html {
 	 flex-direction: column;
 	 justify-content: space-between;
 }
+ .dash__grid .bottom__dash > .work .desc ul {
+	 padding: 0px;
+	 list-style-type: none;
+	 margin: 0px;
+	 margin-bottom: 8px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: flex-start;
+}
+ .dash__grid .bottom__dash > .work .desc ul li.spacer {
+	 font-size: 24px;
+	 line-height: 30px;
+	 font-weight: 500;
+	 margin: 0px 7px;
+	 color: #f0fe91;
+}
+ .dash__grid .bottom__dash > .work .desc ul li a {
+	 font-size: 24px;
+	 line-height: 30px;
+	 color: #f0fe91;
+	 font-weight: 500;
+	 text-decoration: none;
+}
+ .dash__grid .bottom__dash > .work .desc ul li a:hover {
+	 text-decoration: underline;
+}
  .dash__grid .bottom__dash > .work .desc > a {
 	 display: inline-flex;
 	 align-items: center;
@@ -187,14 +213,6 @@ body, html {
 }
  .dash__grid .bottom__dash > .work .desc > a:hover {
 	 text-decoration: underline;
-}
- .dash__grid .bottom__dash > .work .desc > p {
-	 margin: 0px;
-	 margin-bottom: 133px;
-	 font-size: 24px;
-	 line-height: 30px;
-	 color: #f0fe91;
-	 font-weight: 400;
 }
  .dash__grid .bottom__dash > .work > h6 {
 	 margin-top: 0px;
