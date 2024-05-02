@@ -170,23 +170,7 @@ body, html {
 	 width: 100%;
 	 display: flex;
 	 flex-direction: column;
-	 justify-content: space-between;
-}
- .dash__grid .bottom__dash > .work .desc > a {
-	 display: inline-flex;
-	 align-items: center;
 	 justify-content: flex-start;
-	 text-decoration: none;
-	 font-size: 24px;
-	 line-height: 30px;
-	 color: #f0fe91;
-	 font-weight: 500;
-}
- .dash__grid .bottom__dash > .work .desc > a img {
-	 margin-left: 10px;
-}
- .dash__grid .bottom__dash > .work .desc > a:hover {
-	 text-decoration: underline;
 }
  .dash__grid .bottom__dash > .work .desc ul {
 	 padding: 0px;
@@ -214,7 +198,23 @@ body, html {
  .dash__grid .bottom__dash > .work .desc ul li a:hover {
 	 text-decoration: underline;
 }
- .dash__grid .bottom__dash > .work .desc > h6 {
+ .dash__grid .bottom__dash > .work .desc > a {
+	 display: inline-flex;
+	 align-items: center;
+	 justify-content: flex-start;
+	 text-decoration: none;
+	 font-size: 24px;
+	 line-height: 30px;
+	 color: #f0fe91;
+	 font-weight: 500;
+}
+ .dash__grid .bottom__dash > .work .desc > a img {
+	 margin-left: 10px;
+}
+ .dash__grid .bottom__dash > .work .desc > a:hover {
+	 text-decoration: underline;
+}
+ .dash__grid .bottom__dash > .work > h6 {
 	 margin-top: 0px;
 	 margin-right: 35px;
 	 font-size: 52px;
@@ -222,104 +222,104 @@ body, html {
 	 color: #f0fe91;
 	 font-weight: bold;
 }
- .dash__grid .dash__grid .top__dash > .elem:last-child {
+ .dash__grid .top__dash > .elem:last-child {
 	 margin-right: 0px;
 }
- .dash__grid .dash__grid .bottom__dash > .work .desc > p {
+ .dash__grid .bottom__dash > .work .desc > p {
 	 margin-bottom: 0px;
 }
  @media (max-width: 960px) {
-	 .dash__grid .dash__grid .top__dash > .elem {
+	 .dash__grid .top__dash > .elem {
 		 margin-right: 0px;
 	}
-	 .dash__grid .container {
+	 .container {
 		 display: none;
 	}
-	 .dash__grid .dash__grid .top__dash {
+	 .dash__grid .top__dash {
 		 height: auto;
 		 flex-direction: column;
 		 transform: none !important;
 	}
-	 .dash__grid .dashboard {
+	 .dashboard {
 		 position: static;
 		 height: auto;
 	}
-	 .dash__grid .dash__grid .top__dash .info {
+	 .dash__grid .top__dash .info {
 		 min-width: 0px;
 		 max-width: 100%;
 		 margin-bottom: 24px;
 		 width: 100%;
 	}
-	 .dash__grid .dash__grid .top__dash {
+	 .dash__grid .top__dash {
 		 margin-bottom: 24px;
 	}
-	 .dash__grid .dash__grid .bottom__dash {
+	 .dash__grid .bottom__dash {
 		 flex-direction: column;
 	}
-	 .dash__grid .dash__grid .bottom__dash > .work {
+	 .dash__grid .bottom__dash > .work {
 		 height: auto;
 		 width: 100%;
 		 margin-bottom: 24px;
 		 flex-direction: column;
 	}
-	 .dash__grid .dash__grid .bottom__dash .clients {
+	 .dash__grid .bottom__dash .clients {
 		 width: 100%;
 	}
-	 .dash__grid .dash__grid .bottom__dash .clients > h6 {
+	 .dash__grid .bottom__dash .clients > h6 {
 		 margin-bottom: 130px;
 	}
-	 .dash__grid .dash__grid .bottom__dash > .work .desc > p {
+	 .dash__grid .bottom__dash > .work .desc > p {
 		 max-width: 100%;
 		 margin-bottom: 30px;
 	}
-	 .dash__grid .dash__grid .bottom__dash > .work .desc {
+	 .dash__grid .bottom__dash > .work .desc {
 		 max-width: 100%;
 	}
-	 .dash__grid .dash__grid .bottom__dash {
+	 .dash__grid .bottom__dash {
 		 height: auto;
 	}
-	 .dash__grid .dash__grid .bottom__dash > .work > h6 {
+	 .dash__grid .bottom__dash > .work > h6 {
 		 margin-bottom: 177px;
 	}
-	 .dash__grid .dash__grid .top__dash > .elem {
+	 .dash__grid .top__dash > .elem {
 		 min-width: 0px;
 		 max-width: 100%;
 		 margin-bottom: 24px;
 		 width: 100%;
 	}
-	 .dash__grid .dash__grid .top__dash > .elem.back {
+	 .dash__grid .top__dash > .elem.back {
 		 padding-bottom: 41.4%;
 	}
-	 .dash__grid .dash__grid .top__dash > .elem:last-child {
+	 .dash__grid .top__dash > .elem:last-child {
 		 margin-bottom: 0px;
 	}
-	 .dash__grid .dash__grid .top__dash .info > h1 {
+	 .dash__grid .top__dash .info > h1 {
 		 margin-bottom: 220px;
 	}
 }
  @media (max-width: 767px) {
-	 .dash__grid .dashboard {
+	 .dashboard {
 		 padding: 24px;
 	}
 }
  @media (max-width: 380px) {
-	 .dash__grid .dash__grid .bottom__dash .clients > p {
+	 .dash__grid .bottom__dash .clients > p {
 		 font-size: 21px;
 		 line-height: 28px;
 	}
-	 .dash__grid .dash__grid .top__dash > .elem .tag {
+	 .dash__grid .top__dash > .elem .tag {
 		 padding: 10px 15px;
 		 font-size: 19px;
 		 line-height: 24px;
 	}
 }
  @media (max-width: 360px) {
-	 .dash__grid .dash__grid .bottom__dash > .work > h6, .dash__grid .dash__grid .bottom__dash .clients > h6 {
+	 .dash__grid .bottom__dash > .work > h6, .dash__grid .bottom__dash .clients > h6 {
 		 font-size: 48px;
 		 line-height: 56px;
 		 margin-right: 0px;
 	}
-	 .dash__grid .dash__grid .bottom__dash > .work .desc > a {
+	 .dash__grid .bottom__dash > .work .desc > a {
 		 font-size: 21px;
 	}
 }
