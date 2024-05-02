@@ -172,6 +172,33 @@ body *{
 				display: flex;
 				flex-direction:column;
 				justify-content:space-between;
+				& ul{
+					padding:0px;
+					list-style-type: none;
+					margin:0px;
+					margin-bottom: 8px;
+					display: flex;
+					align-items:center;
+					justify-content:flex-start;
+					& li.spacer{
+						font-size: 24px;
+						line-height: 30px;
+						font-weight: 500;
+						margin:0px 7px;
+						color:#F0FE91;
+					}
+					& li a{
+
+						font-size: 24px;
+						line-height: 30px;
+						color:#F0FE91;
+						font-weight: 500;
+						text-decoration: none;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
 				&>a{
 					display: inline-flex;
 					align-items:center;
@@ -188,15 +215,8 @@ body *{
 						text-decoration: underline;
 					}
 				}
-				&>p{
-					margin:0px;
-					margin-bottom: 133px;
-					font-size: 24px;
-					line-height: 30px;
-					color:#F0FE91;
-					font-weight: 400;
-				}
 			}
+				
 			&>h6{
 				margin-top: 0px;
 				margin-right: 35px;
