@@ -166,7 +166,7 @@ body, html {
 	 justify-content: space-between;
 }
  .dash__grid .bottom__dash > .work .desc {
-	 max-width: 350px;
+	 max-width: 220px;
 	 width: 100%;
 	 display: flex;
 	 flex-direction: column;
