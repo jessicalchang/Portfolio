@@ -25,6 +25,8 @@ body, html {
 	 height: calc(62% - 24px);
 	 display: flex;
 	 transition: 0.1s ease all;
+	 overflow-x: auto;
+	 white-space: nowrap;
 }
  .dash__grid .top__dash > .elem {
 	 margin-right: 24px;
