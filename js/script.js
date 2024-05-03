@@ -33,10 +33,4 @@ $(document).ready(function(){
 			$('.top__dash>.elem.back').css("height" , "auto");
 		}
 	});
-  const topDash = document.querySelector('.dash__grid .top__dash');
-
-  topDash.addEventListener('wheel', (event) => {
-    event.preventDefault();
-    topDash.scrollLeft += event.deltaY;
-  });
 });
